@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="600" pageHeight="842" columnWidth="560" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="44869b03-9eb1-4128-8d45-79dbe184a1eb">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#73B0E6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#CFDBE6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F5F5F5">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#808080">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#808080">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#808080">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#808080">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="4b8ade6c-b71c-4f5a-8bfe-b0115fff4bf6"/>
+	<subDataset name="Table Dataset 2" uuid="d050102a-b0d9-405c-bca2-a41465bf74ef"/>
+	<subDataset name="Table Dataset 3" uuid="0e5365b3-147b-4f33-a03e-20a05e67509a"/>
+	<subDataset name="Table Dataset 4" uuid="0a0cc707-b6fd-4dfb-8e65-65c158c9d482"/>
+	<subDataset name="Table Dataset 5" uuid="79e77db4-15f1-4b03-92c3-95c5f4c35db8"/>
+	<subDataset name="Table Dataset 6" uuid="0628ea35-0184-4a5a-9a73-285e25710ec6"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="59" splitType="Stretch">
+			<staticText>
+				<reportElement x="146" y="37" width="332" height="15" uuid="74841844-4edd-4fea-8468-88a590f94126"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GUAYAQUIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="146" y="2" width="332" height="20" uuid="f9861ee4-c115-45f3-89a7-9f3cc642a0ab"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benemerita Sociedad Protectora de la infancia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="146" y="22" width="332" height="15" uuid="b9db895b-bc31-4287-8d0d-415f6aea4585"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOSPITAL "LEON BECERRA"]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="2" width="146" height="57" uuid="0caabe7c-03c6-4b17-8561-a528ba988b5e"/>
+				<imageExpression><![CDATA["/home/administrador/NetBeansProjects/formulario/web/reporteModuloDoctor/LOGO HLB actualizado 002.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="720" splitType="Stretch">
+			<elementGroup>
+				<componentElement>
+					<reportElement key="table 2" style="table 2" x="0" y="0" width="560" height="66" uuid="62cf152b-cd15-4218-abe4-df8fa2cb2ce9"/>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Table Dataset 3" uuid="67de2d21-f1e6-4235-8a77-c48a49f05ba0">
+							<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+						</datasetRun>
+						<jr:columnGroup width="199" uuid="8537c2da-c63b-4611-9064-ac6296d40033">
+							<jr:column width="199" uuid="9711bf0c-020a-4ec3-a1d1-648246450b14">
+								<jr:tableHeader style="table 2_TH" height="31" rowSpan="1">
+									<staticText>
+										<reportElement x="0" y="8" width="199" height="23" uuid="3a4e3c54-577c-40b3-8cb7-a1bbe590c419"/>
+										<textElement textAlignment="Center">
+											<font size="12" isBold="true"/>
+										</textElement>
+										<text><![CDATA[INSTITUCION DEL SISTEMA]]></text>
+									</staticText>
+								</jr:tableHeader>
+								<jr:columnHeader height="63" rowSpan="1"/>
+							</jr:column>
+						</jr:columnGroup>
+						<jr:column width="177" uuid="53cf161d-6404-427e-8b86-7bccacf38921">
+							<jr:tableHeader style="table 2_TH" height="31" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="8" width="177" height="23" uuid="ff2e950f-3075-44d5-b344-308042f9167c"/>
+									<textElement textAlignment="Center">
+										<font size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[UNIDAD OPERATIVA]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:columnHeader height="63" rowSpan="1"/>
+						</jr:column>
+						<jr:column width="128" uuid="29e9bcef-2da0-4f95-ad99-a7e89f48dab1">
+							<jr:tableHeader style="table 2_TH" height="31" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="9" width="128" height="22" uuid="3ed28134-5e03-4c6e-ba41-2f2a97f989a0"/>
+									<textElement textAlignment="Center">
+										<font size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[COD. Uo]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:columnHeader height="63" rowSpan="1"/>
+						</jr:column>
+						<jr:column width="203" uuid="ae59f22c-2c2b-48a8-a7f3-e96192eacc65">
+							<jr:tableHeader style="table 2_TH" height="31" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="8" width="203" height="23" uuid="380872a0-cfdc-4e79-8a87-805e89fc3e1f"/>
+									<textElement textAlignment="Center">
+										<font size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[COD. LOCALIZACION]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:tableFooter height="0" rowSpan="1"/>
+							<jr:columnHeader height="63" rowSpan="1">
+								<componentElement>
+									<reportElement key="table 4" style="table 4" x="0" y="0" width="203" height="63" uuid="ebd98798-7edc-4961-93fd-8c8693589e8e"/>
+									<jr:table>
+										<datasetRun subDataset="Table Dataset 5" uuid="9cde0ff1-d1e9-415d-84f2-57fd28e64f31">
+											<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+										</datasetRun>
+										<jr:column width="90" uuid="e57954ca-eb4f-4c2d-8f72-a2913adb58c7">
+											<jr:tableHeader style="table 4_TH" height="17" rowSpan="1">
+												<staticText>
+													<reportElement x="0" y="1" width="90" height="16" uuid="ee4270dc-a4db-4a04-8822-6d2f55fcd959"/>
+													<textElement textAlignment="Center">
+														<font size="12" isBold="true"/>
+													</textElement>
+													<text><![CDATA[PARROQUIA	]]></text>
+												</staticText>
+											</jr:tableHeader>
+											<jr:detailCell style="table 4_TD" height="45" rowSpan="1"/>
+										</jr:column>
+										<jr:column width="90" uuid="8678e039-ba0e-4fe5-97da-12f12cabda1c">
+											<jr:tableHeader style="table 4_TH" height="17" rowSpan="1">
+												<staticText>
+													<reportElement x="0" y="0" width="90" height="17" uuid="afc2d901-bbe6-4ce9-9e72-6976c5e23219"/>
+													<textElement textAlignment="Center">
+														<font size="12" isBold="true"/>
+													</textElement>
+													<text><![CDATA[CANTON]]></text>
+												</staticText>
+											</jr:tableHeader>
+											<jr:detailCell style="table 4_TD" height="45" rowSpan="1"/>
+										</jr:column>
+										<jr:column width="90" uuid="1c69a170-b572-48a4-8502-e9610632166d">
+											<jr:tableHeader style="table 4_TH" height="17" rowSpan="1">
+												<staticText>
+													<reportElement x="0" y="0" width="90" height="17" uuid="67fcfd6d-5da8-4e31-b0a7-48306944904f"/>
+													<textElement textAlignment="Center">
+														<font size="12" isBold="true"/>
+													</textElement>
+													<text><![CDATA[PROVINCIA]]></text>
+												</staticText>
+											</jr:tableHeader>
+											<jr:detailCell style="table 4_TD" height="45" rowSpan="1"/>
+										</jr:column>
+									</jr:table>
+								</componentElement>
+							</jr:columnHeader>
+						</jr:column>
+						<jr:column width="187" uuid="9c1ad982-eded-484b-8e4a-9013991258f6">
+							<jr:tableHeader style="table 2_TH" height="31" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="8" width="187" height="23" uuid="3f6fc441-e5e2-497f-81df-76a77c245c9d"/>
+									<textElement textAlignment="Center">
+										<font size="12" isBold="true"/>
+									</textElement>
+									<text><![CDATA[N HISTORIA CLINICA]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:tableFooter height="0" rowSpan="1"/>
+							<jr:columnHeader height="63" rowSpan="1"/>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+			</elementGroup>
+			<componentElement>
+				<reportElement key="table 5" style="table 5" x="0" y="66" width="560" height="79" uuid="498c1ed5-15d3-48e9-8749-24f47937124c"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Table Dataset 6" uuid="2e9f1998-c58a-4d5b-870e-377b67377934">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="559" uuid="6865c054-8288-498f-bc06-efeb1b477045">
+						<jr:tableHeader style="table 5_TH" height="19" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="559" height="19" uuid="156e2768-7a10-409f-85cb-90bd6bebc827"/>
+								<textElement>
+									<font size="14" isBold="true"/>
+								</textElement>
+								<text><![CDATA[    1. REGISTRO DE ADMISION]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:columnHeader height="60" rowSpan="1">
+							<componentElement>
+								<reportElement key="table 6" style="table 6" x="0" y="0" width="559" height="60" uuid="dc1b947c-07dd-48c1-add1-ca3addaf28b0"/>
+								<jr:table>
+									<datasetRun subDataset="Table Dataset 7" uuid="e6a4ca22-080a-4cba-91d2-1a0188c3dd05">
+										<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+									</datasetRun>
+									<jr:column width="152" uuid="f1d184fb-5fae-4032-9cf0-4aa074e0a4de">
+										<jr:tableHeader style="table 6_TH" height="30" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="152" height="30" uuid="3904d0b9-26da-4211-b2de-cb5080878c0e"/>
+												<textElement textAlignment="Center">
+													<font size="12" isBold="true"/>
+												</textElement>
+												<text><![CDATA[APELLIDO PATERNO]]></text>
+											</staticText>
+										</jr:tableHeader>
+										<jr:detailCell style="table 6_TD" height="37" rowSpan="1"/>
+									</jr:column>
+									<jr:column width="148" uuid="895a6e93-d5a6-4091-b53c-5ac3a83b91a9">
+										<jr:tableHeader style="table 6_TH" height="30" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="148" height="30" uuid="eb656b09-aba5-4400-8547-106328937508"/>
+												<textElement textAlignment="Center">
+													<font size="12" isBold="true"/>
+												</textElement>
+												<text><![CDATA[APELLIDO MATERNO]]></text>
+											</staticText>
+										</jr:tableHeader>
+										<jr:detailCell style="table 6_TD" height="37" rowSpan="1"/>
+									</jr:column>
+									<jr:column width="130" uuid="8c07ca3a-8fee-4a96-ba4a-da7855cb407f">
+										<jr:tableHeader style="table 6_TH" height="30" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="130" height="30" uuid="4dd9a812-c600-4d89-8673-68cd3fcbdcde"/>
+												<textElement textAlignment="Center">
+													<font size="12" isBold="true"/>
+												</textElement>
+												<text><![CDATA[PRIMER NOMBRE]]></text>
+											</staticText>
+										</jr:tableHeader>
+										<jr:detailCell style="table 6_TD" height="37" rowSpan="1"/>
+									</jr:column>
+									<jr:column width="143" uuid="768d8cc1-042f-4f4b-9d47-3a51132f5374">
+										<jr:tableHeader style="table 6_TH" height="30" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="143" height="30" uuid="36ba1f64-eae2-4817-8ada-bafeaff1be51"/>
+												<textElement textAlignment="Center">
+													<font size="12" isBold="true"/>
+												</textElement>
+												<text><![CDATA[SEGUNDO NOMBRE]]></text>
+											</staticText>
+										</jr:tableHeader>
+										<jr:detailCell style="table 6_TD" height="37" rowSpan="1"/>
+									</jr:column>
+									<jr:column width="155" uuid="185247ee-4e4e-4eff-9a0a-c11a076d177a">
+										<jr:tableHeader style="table 6_TH" height="30" rowSpan="1">
+											<staticText>
+												<reportElement x="0" y="0" width="155" height="30" uuid="810469ef-d0f1-4556-aad9-5c3b2cb5176d"/>
+												<textElement textAlignment="Center">
+													<font size="12" isBold="true"/>
+												</textElement>
+												<text><![CDATA[CEDULA CIUDADANIA]]></text>
+											</staticText>
+										</jr:tableHeader>
+										<jr:detailCell style="table 6_TD" height="37" rowSpan="1"/>
+									</jr:column>
+								</jr:table>
+							</componentElement>
+						</jr:columnHeader>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>
